@@ -8,7 +8,7 @@
    </head>
    <body>
       <div style="padding: 5px; background-color: green" id="divUnico">
-         <input type="button" value="Saludar" onclick="alert('hola')">
+         <input type="button" value="Saludar" onclick="event.stopPropagation(); alert('hola')">
       </div>
    </body>
 </html>
